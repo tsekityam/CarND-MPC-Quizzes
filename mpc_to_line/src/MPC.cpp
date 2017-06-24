@@ -285,7 +285,7 @@ int main() {
   // TODO: calculate the cross track error
   double cte = polyeval(coeffs, x) - y;
   // TODO: calculate the orientation error
-  double epsi = ? ;
+  double epsi = psi - atan(coeffs[1]);
 
   Eigen::VectorXd state(6);
   state << x, y, psi, v, cte, epsi;
