@@ -11,8 +11,8 @@ namespace plt = matplotlibcpp;
 using CppAD::AD;
 
 // TODO: Set N and dt
-size_t N = ? ;
-double dt = ? ;
+size_t N = 20;
+double dt = 0.5;
 
 // This value assumes the model presented in the classroom is used.
 //
